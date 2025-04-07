@@ -11,4 +11,5 @@ Key Adjustments for DC Framework; Event Definition:
 
 ![image](https://github.com/user-attachments/assets/b1202b26-4450-4efe-91e5-478e380f8752)
 
-  
+Feature Engineering was applied to the data. Below are the 
+![image](https://github.com/user-attachments/assets/15d14179-2694-48f3-b951-dfb6d1ef17d9)
