@@ -29,6 +29,10 @@ The above activities reduced the predictor set and produced a defined predictor 
 ![image](https://github.com/user-attachments/assets/40e7c67b-8e30-4bdf-a2c4-bed203739843)
 
 
-To obtain a robust model, the three asset EUR_USD, GBP_USD and USD_JPY was combined to generate a larger data size. Below is the correlation matrix across the assets:
+To obtain a robust model, the three asset EUR_USD, GBP_USD and USD_JPY was combined to generate a larger data size. Below is the correlation matrix across the assets. The log close and kama_(moving_average) predictors dont seem to have much predictive power on the EUR_USD data, but possesses stronger correlation on the GBP_USD and the USD_JPY set.
 ![image](https://github.com/user-attachments/assets/e5cb3778-9b78-456d-8dc0-8a71d83defaf)
+
+The Linear Regression, Adaboost and Random Forest produced slightly better result after a cross validation was performed. However, the Random forest classifier was chosen to be tuned because of interactions within the predictors that can be handled by boosting and bagging algorithms as opposed to the linear regression.
+![image](https://github.com/user-attachments/assets/1bd76b48-3ae7-4092-a571-43f3c06137e7)
+
 
