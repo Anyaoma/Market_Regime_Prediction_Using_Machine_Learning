@@ -15,7 +15,7 @@ The selection of data used in this analysis include; EUR_USD, GBP_USD, USD_JPY (
 ![image](https://github.com/user-attachments/assets/b1202b26-4450-4efe-91e5-478e380f8752)
 
 Feature Engineering: lagged log returns and lagged rolling autocorrelation values in the farthest past showed higher autocorelation with the response variable than the lagged variables in the recent past, hence there was a shift from [1,5,10...] to [20, 40, 60....] spaced lags to avoid multicollinearity. 
-*The correlation matrix of the engineered features depicts multicollinearity among the volatility, and RSI variables.
+* Still the correlation matrix of the engineered features depicts multicollinearity among the volatility, and RSI features.
 
 ![image](https://github.com/user-attachments/assets/15d14179-2694-48f3-b951-dfb6d1ef17d9)
 
@@ -29,4 +29,6 @@ The above activities reduced the predictor set and produced a defined predictor 
 ![image](https://github.com/user-attachments/assets/40e7c67b-8e30-4bdf-a2c4-bed203739843)
 
 
+To obtain a robust model, the three asset EUR_USD, GBP_USD and USD_JPY was combined to generate a larger data size. Below is the correlation matrix across the assets:
+![image](https://github.com/user-attachments/assets/e5cb3778-9b78-456d-8dc0-8a71d83defaf)
 
