@@ -19,13 +19,14 @@ Feature Engineering: lagged log returns and lagged rolling autocorrelation value
 
 ![image](https://github.com/user-attachments/assets/15d14179-2694-48f3-b951-dfb6d1ef17d9)
 
-Univariate analysis of the engineered features dipicted a mix of skewed and normal distributions within the predictor variable set
-
-![image](https://github.com/user-attachments/assets/4a36cf92-af08-408b-988d-ffb596577446)
 
 To reduce the issue of multicollinearity and retain more predictive individual variable, the PCA was applied to the volatility and RSI variable sets, thus resulting in singularised predictors:
 ![image](https://github.com/user-attachments/assets/8c91147d-bcb5-4f62-b0eb-44f241a3300f)
 
 ![image](https://github.com/user-attachments/assets/79916861-a33c-44f4-8fe1-bdb99a921f71)
+
+The above activities reduced the predictor set and produced a defined predictor space:
+![image](https://github.com/user-attachments/assets/40e7c67b-8e30-4bdf-a2c4-bed203739843)
+
 
 
