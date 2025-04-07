@@ -35,4 +35,9 @@ To obtain a robust model, the three asset EUR_USD, GBP_USD and USD_JPY was combi
 The Linear Regression, Adaboost and Random Forest produced slightly better result after a cross validation was performed. However, the Random forest classifier was chosen to be tuned because of interactions within the predictors that can be handled by boosting and bagging algorithms as opposed to the linear regression.
 ![image](https://github.com/user-attachments/assets/1bd76b48-3ae7-4092-a571-43f3c06137e7)
 
+Using the f1 metric. The Random forex classifier produced the following results as the best parameters:
+Best: 0.728939 using {'criterion': 'entropy', 'max_depth': 5, 'n_estimators': 20}
+
+The unseen test set was analysed and predicted. It produced a 72% score using the f1 metric
+![image](https://github.com/user-attachments/assets/c006ebfb-2e0a-49dc-b5d3-3b5b208afee0)
 
