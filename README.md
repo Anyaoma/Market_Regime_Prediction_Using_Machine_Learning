@@ -9,5 +9,6 @@ Key Adjustments for DC Framework; Event Definition:
 1. DC Upward Event: Short-term price movement ≥ threshold (e.g., Δ% from trough to peak).
 2. DC Downward Event: Short-term price movement ≤ threshold (e.g., Δ% from peak to trough).
 
- ![image](https://github.com/user-attachments/assets/d0b5828f-6eb5-4839-b2f4-ca1624e0d875)
+![image](https://github.com/user-attachments/assets/b1202b26-4450-4efe-91e5-478e380f8752)
+
   
